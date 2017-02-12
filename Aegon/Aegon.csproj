@@ -66,7 +66,37 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dist\fonts\fontawesome-webfont.svg" />
+    <Content Include="dist\images\aegon-logo.svg" />
+    <Content Include="dist\images\arrow-1-down.svg" />
+    <Content Include="dist\images\arrow-1-up.svg" />
+    <Content Include="dist\images\bg.png" />
+    <Content Include="dist\images\close.svg" />
+    <Content Include="dist\images\eye-24.svg" />
+    <Content Include="dist\images\eye-off-24.svg" />
+    <Content Include="dist\images\eye-off.svg" />
+    <Content Include="dist\images\eye.svg" />
+    <Content Include="dist\images\img01.png" />
+    <Content Include="dist\index.html" />
+    <Content Include="dist\scripts\main.min.js" />
+    <Content Include="dist\styles\main.css" />
+    <Content Include="gulpfile.js" />
     <Content Include="packages.config" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="package.json" />
+    <Content Include="src\scripts\cookie_banner.js" />
+    <Content Include="src\styles\layout.scss" />
+    <Content Include="src\styles\panel.scss" />
+    <Content Include="src\main.scss" />
+    <Content Include="bower.json" />
+    <Content Include="src\global\custom.scss" />
+    <Content Include="src\styles\cookie_banner.scss" />
+    <Content Include="src\global\variables.scss" />
+    <Content Include="dist\fonts\fontawesome-webfont.eot" />
+    <Content Include="dist\fonts\fontawesome-webfont.ttf" />
+    <Content Include="dist\fonts\fontawesome-webfont.woff" />
+    <Content Include="dist\fonts\fontawesome-webfont.woff2" />
+    <Content Include="dist\fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,10 +105,35 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="src\images\aegon-logo.svg" />
+    <Content Include="src\images\arrow-1-down.svg" />
+    <Content Include="src\images\arrow-1-up.svg" />
+    <Content Include="src\images\bg.png" />
+    <Content Include="src\images\close.svg" />
+    <Content Include="src\images\eye-24.svg" />
+    <Content Include="src\images\eye-off-24.svg" />
+    <Content Include="src\images\eye-off.svg" />
+    <Content Include="src\images\eye.svg" />
+    <Content Include="src\images\img01.png" />
+    <Content Include="src\index.html" />
+    <Content Include="src\scripts\main.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bower_components\" />
+    <Folder Include="node_modules\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

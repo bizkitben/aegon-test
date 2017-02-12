@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign In: Aegon Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+<body>
+    <div class="container">
+        <header class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-6">
+                    <a href="#"><img src="images/aegon-logo.svg" alt="Aegon" class="logo my-2" /></a>
+                </div>
+                <div class="col" role="navigation">
+                    <ul class="nav nav-pills float-right">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Support</a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col mx-3 mt-4">
+                <h1 class="">Aegon Dashboard</h1>
+            </div>
+        </div>
+        <div class="row">
+
+            <section class="col-md-6">
+                <article class="signin-component panel p-4 m-3">
+                    <form class="form-signin">
+                        <fieldset class="form-group">
+                            <legend class="form-signin-heading">Sign in</legend>
+                            <div class="alert alert-warning" role="alert" hidden>
+                                Sorry, we don't recognise these details. Please try again.
+                            </div>
+                            <label for="inputEmail">Username or Email address</label>
+                            <input type="email" id="inputEmail" maxlength="128" aria-required="true" class="form-control" required autofocus>
+                            <label for="inputPassword">Password</label>
+                            <div class="form-inline input-group">
+                                <input type="password" data-toggle="password" id="inputPassword" maxlength="64" aria-required="true" class="form-control form-inline" required>
+                                <div class="form-inline ml-2">
+                                    <a href="#" id="showHidePassword">
+                                        <img id="showPassword" src="images/eye-24.svg" alt="Show password" />
+                                        <img id="hidePassword" src="images/eye-off-24.svg" alt="Hide Password" hidden />
+                                    </a>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="container">
+                            <div class="row justify-content-center justify-content-md-start">
+                                <button id="signIn" class="btn btn-primary" type="submit">Sign in to your dashboard</button>
+                                <div id="spinner" hidden>
+                                    <i class="fa fa-spinner fa-pulse fa-2x fa-fw" aria-hidden="true"></i>
+                                    <span class="sr-only">Signing in...</span>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center justify-content-md-start mt-2">
+                                <a href="#troubleSigningIn" data-toggle="collapse" aria-expanded="false">Trouble signing in?</a>
+                            </div>
+                        </div>
+                    </form>
+                </article>
+                <article class="why-sign-in-component container p-4 m-3">
+                    <h2>Why sign in?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <ul class="row">
+                        <li class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipiscing eenean</li>
+                        <li class="col-md-6">Proin sodales pulvinar tempor,</li>
+                        <li class="col-md-6">Cum sociis natoque penatibus et magnis dis parturient montes;</li>
+                        <li class="col-md-6">Dolor sit amet, consectetur adipiscing eenean euismod bibendum,</li>
+                        <li class="col-md-6">Sodales pulvinar tempor,</li>
+                    </ul>
+                </article>
+                <article id="troubleSigningIn" class="trouble-signing-in-component panel collapse p-4 m-3">
+                    <h2>Heading 2?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Forgotten Username</a>
+                        <a href="#" class="list-group-item list-group-item-action">Forgotten Password</a>
+                        <a href="#" class="list-group-item list-group-item-action">Not registered? Get access</a>
+                    </div>
+                </article>
+            </section>
+
+            <aside class="col-md-6">
+                <article class="heading-2-component panel p-4 m-3">
+                    <h2>Heading 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor</p>
+                    <button class="btn btn-outline-primary">CTA LINK</button>
+                </article>
+                <article class="heading-3-component panel p-4 m-3">
+                    <h2>Heading 3</h2>
+                    <a href="#">CTA link/button if needed</a>
+                </article>
+            </aside>
+        </div>
+    </div>
+    <!--build:js scripts/main.min.js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/tether/dist/js/tether.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="scripts/cookie_banner.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
